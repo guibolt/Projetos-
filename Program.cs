@@ -8,7 +8,7 @@ namespace Avaliacao
         {
             string[] vetNomes = new string[5];
             double[] vetNotas = new double[5];
-            double  nota=0, contador = 0;
+            double media,contador = 0;
             int porc,aprovados =0,reprovados=0;
             char tecla = 's';
 
@@ -21,21 +21,18 @@ namespace Avaliacao
                     {
                         // Nome dos Alunos
                         Console.WriteLine("Digite o nome do aluno: ");
-                        string nome = Convert.ToString(Console.ReadLine());
-                        vetNomes[i] = nome;
-
+                        vetNomes[i] = Convert.ToString(Console.ReadLine());
+                      
                         Console.WriteLine("Digite a nota do aluno");
-                        nota = Convert.ToDouble(Console.ReadLine(), CultureInfo.InvariantCulture);
-
-                        vetNotas[i] = nota;
+                        vetNotas[i] = Convert.ToDouble(Console.ReadLine(), CultureInfo.InvariantCulture);
 
                         contador += vetNotas[i];
 
-                        while (nota > 10 || nota < 0)
+                        while (vetNotas[i] > 10 || vetNotas[i] < 0)
                         {
                             Console.WriteLine("Nota Errada");
                             Console.WriteLine("Digite uma nota certa");
-                           nota = Convert.ToDouble(Console.ReadLine(), CultureInfo.InvariantCulture);
+                            vetNotas[i] = Convert.ToDouble(Console.ReadLine(), CultureInfo.InvariantCulture);
                         }
 
                         if (vetNotas[i] >= 5)
@@ -62,7 +59,9 @@ namespace Avaliacao
                 }
 
                 //   Calculo da media
-                Console.WriteLine("A media da sala foi: " + contador / 5);
+
+                media = contador / 5;
+                Console.WriteLine("A media da sala foi: " + media.ToString(CultureInfo.InvariantCulture));
 
                 // Calculo da porcentagem
                 porc = aprovados * 20;
