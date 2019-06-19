@@ -9,3 +9,14 @@ C:\Users\Treinamento 5\source\repos\Avaliacao\obj\Debug\netcoreapp2.2\Avaliacao.
 C:\Users\Treinamento 5\source\repos\Avaliacao\obj\Debug\netcoreapp2.2\Avaliacao.AssemblyInfo.cs
 C:\Users\Treinamento 5\source\repos\Avaliacao\obj\Debug\netcoreapp2.2\Avaliacao.dll
 C:\Users\Treinamento 5\source\repos\Avaliacao\obj\Debug\netcoreapp2.2\Avaliacao.pdb
+C:\Users\guibo\source\repos\Projetos-C-\obj\Debug\netcoreapp2.2\Avaliacao.csprojAssemblyReference.cache
+C:\Users\guibo\source\repos\Projetos-C-\obj\Debug\netcoreapp2.2\Avaliacao.csproj.CoreCompileInputs.cache
+C:\Users\guibo\source\repos\Projetos-C-\obj\Debug\netcoreapp2.2\Avaliacao.AssemblyInfoInputs.cache
+C:\Users\guibo\source\repos\Projetos-C-\obj\Debug\netcoreapp2.2\Avaliacao.AssemblyInfo.cs
+C:\Users\guibo\source\repos\Projetos-C-\obj\Debug\netcoreapp2.2\Avaliacao.dll
+C:\Users\guibo\source\repos\Projetos-C-\obj\Debug\netcoreapp2.2\Avaliacao.pdb
+C:\Users\guibo\source\repos\Projetos-C-\bin\Debug\netcoreapp2.2\Avaliacao.deps.json
+C:\Users\guibo\source\repos\Projetos-C-\bin\Debug\netcoreapp2.2\Avaliacao.runtimeconfig.json
+C:\Users\guibo\source\repos\Projetos-C-\bin\Debug\netcoreapp2.2\Avaliacao.runtimeconfig.dev.json
+C:\Users\guibo\source\repos\Projetos-C-\bin\Debug\netcoreapp2.2\Avaliacao.dll
+C:\Users\guibo\source\repos\Projetos-C-\bin\Debug\netcoreapp2.2\Avaliacao.pdb
