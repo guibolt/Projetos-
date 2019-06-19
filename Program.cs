@@ -35,18 +35,18 @@ namespace Avaliacao
                         {
                             Console.WriteLine("Nota Errada");
                             Console.WriteLine("Digite uma nota certa");
-                            nota = Convert.ToDouble(Console.ReadLine(), CultureInfo.InvariantCulture);
+                           nota = Convert.ToDouble(Console.ReadLine(), CultureInfo.InvariantCulture);
                         }
 
                         if (vetNotas[i] >= 5)
                         {
-                            Console.WriteLine("Voce foi aprovado " + vetNomes[i] + " Com a nota de: " + vetNotas[i]);
+                            Console.WriteLine(vetNomes[i] + " você foi aprovado " + " com a nota de: " + vetNotas[i]);
                             aprovados++;
                         }
 
                         else
                         {
-                            Console.WriteLine("Voce foi reprovado " + vetNomes[i] + " Com a nota de: " + vetNotas[i]);
+                            Console.WriteLine(vetNomes[i]  +" você foi reprovado "+ " com a nota de: " + vetNotas[i]);
                             reprovados++;
                         }
                     }
@@ -61,7 +61,7 @@ namespace Avaliacao
 
                 }
 
-                //   Calculo das medias
+                //   Calculo da media
                 Console.WriteLine("A media da sala foi: " + contador / 5);
 
                 // Calculo da porcentagem
