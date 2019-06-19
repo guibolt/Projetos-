@@ -37,13 +37,13 @@ namespace Avaliacao
 
                         if (vetNotas[i] >= 5)
                         {
-                            Console.WriteLine(vetNomes[i] + " você foi aprovado " + " com a nota de: " + vetNotas[i]);
+                            Console.WriteLine($"{vetNomes[i]} você foi aprovado  com a nota de: " + vetNotas[i]);
                             aprovados++;
                         }
 
                         else
                         {
-                            Console.WriteLine(vetNomes[i]  +" você foi reprovado "+ " com a nota de: " + vetNotas[i]);
+                            Console.WriteLine($"{vetNomes[i]} você foi reprovado  com a nota de:  {vetNotas[i]}");
                             reprovados++;
                         }
                     }
@@ -59,7 +59,6 @@ namespace Avaliacao
                 }
 
                 //   Calculo da media
-
                 media = contador / 5;
                 Console.WriteLine("A media da sala foi: " + media.ToString(CultureInfo.InvariantCulture));
 
